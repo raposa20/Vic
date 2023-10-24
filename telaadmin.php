@@ -37,10 +37,11 @@
       
       if(mysqli_num_rows($resultado) > 0){
         echo "<table id='tbresultado'><tr>";
-        echo "<th>E-MAIL</TH><th>EXCLUIR</th></TR>";
+        echo "<th>NOME</th><th>E-MAIL</TH><th>EXCLUIR</th></TR>";
         while($usuario = mysqli_fetch_assoc($resultado)){
             
             echo "<tr>";
+            echo "<td>".$usuario['nome']."</td>";
             echo "<td>".$usuario['email']."</td>";
             echo "<td> <a href='javascript: confirmar(\"".$usuario['email']."\");'><img src='img/excluir.png' class='icone'></a> </td>";
             echo "</tr>";

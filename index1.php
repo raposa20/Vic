@@ -50,19 +50,12 @@
 </section>
  
      <section class="about" id="about">
-        <h2 class="deco-title">Sobre nós</h2>
-        
-        <div class="box-container">
-
-        <div class="image">
-            <img src="../IMG/Abo.png" alt="">
-
-        </div>
+       
 
         <div class="content">
             <h3 class="title">Reciclar é importante</h3>
-            <p>Quando abraçamos a prática de reciclar, estamos muito mais do que apenas 
-            descartando resíduos de forma responsável e correta; 
+            <p>Quando abraçamos a prática de reciclar, estamos muito mais do que <p>
+            apenas descartando resíduos de forma responsável e correta; <p>
             estamos salvando de alguma forma, o meio ambiente e a saúde humana. 
             É essencial que todos nós façamos a nossa parte. </p>
         </div>

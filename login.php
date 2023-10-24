@@ -23,6 +23,12 @@
             <div class="center">
                 <button type="submit">Entrar</button>
             </div>
+
+            <div>
+                <p style="text-align:center;">
+                <a href="cadastro.html">Não possui uma conta? Clique aqui</a>
+                </p>
+              </div>
              <!-- Script PHP para mostrar a mensagem de erro -->
             <?php
                 if(isset($_GET['erro'])){

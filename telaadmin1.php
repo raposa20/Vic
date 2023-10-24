@@ -37,13 +37,14 @@
       
       if(mysqli_num_rows($resultado) > 0){
         echo "<table id='tbresultado'><tr>";
-        echo "<th>NÚMERO</TH><th>ENDEREÇO</TH><th>MATERIAL</TH><th>EXCLUIR</th></TR>";
+        echo "<th>ID</TH><th>ENDEREÇO</TH><th>TIPO DE MATERIAL</TH><th>Data</th><th>EXCLUIR</th></TR>";
         while($coleta = mysqli_fetch_assoc($resultado)){
             
             echo "<tr>";
             echo "<td>".$coleta['numero']."</td>";
             echo "<td>".$coleta['endereco']."</td>";
             echo "<td>".$coleta['material']."</td>";
+            echo "<td>".$coleta['data']."</td>";
             echo "<td> <a href='javascript: confirmar(".$coleta['numero'].");'><img src='img/excluir.png' class='icone'></a> </td>";
             echo "</tr>";
         }
